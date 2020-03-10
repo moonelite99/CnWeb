@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TimeLine Facebook </title>
+	<link rel="stylesheet" type="text/css" href="fileCss-bai3/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="fileCss-bai3/css/global.css">
+	<link rel="stylesheet" type="text/css" href="fileCss-bai3/css/index.css">
+	<link rel="stylesheet" type="text/css" href="fileCss-bai3/fonts/font-awesome/fonts/css/all.min.css">
+
+</head>
+<body>
+	<div id="wrapper" >
+		<div id="header" > 
+			<div class="wp-inner"></div>
+			<div>
+				<div class="float-left clearfix" style="position: fixed;left: 8%; top: 10px"> 
+					<div class="float-left" > <i class="fab fa-facebook-square" style="font-size: 30px;"></i></div>
+					<form action="search-box" class="fl-right" id="form-search">
+						<input type="text" id="key-search" name="key-search" placeholder="Tìm kiếm">
+						<button type="submit" id="submit" name="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+					</form>
+				</div>
+				<div class="float-right clearfix" style="position: fixed; right: 8%; top: 17px;">
+					<div class=" float-left"> 
+						<ul class="clearfix" >
+							<li class="float-left" style="padding-left: 20px; position: relative; top: -6px" ><img src="img-bai3/prof.PNG" style="border-radius: 50%;" width="30px" height="30px" alt=""></li>
+							<li class="float-left" style="padding-left: 5px" >User |</li>
+							<li class="float-left" style="padding-left: 10px"> Home |</li>
+							<li class="float-left" style="padding-left: 10px"> Create </li>
+							<li class="float-left" style="padding-left: 20px"> <i class="fas fa-user-friends"></i> </li>
+							<li class="float-left" style="padding-left: 20px"> <i class="fab fa-facebook-messenger"></i> </li>
+							<li class="float-left" style="padding-left: 20px"> <i class="fas fa-bell"></i> </li>
+							<li class="float-left" style="padding-left: 20px"> <i class="fas fa-question-circle"></i> </li>
+							<li class="float-left" style="padding-left: 20px"> <i class="fas fa-cog"></i> </li>
+						</ul>
+					</div>
+
+				</div>
+				<div class="float-right"> </div>	
+			</div>
+		</div>
+		<div id="wp-content" class="clearfix">
+			<div id="sidebar-left" class="float-left" style="position: fixed; top: 50px;left: 0px;">
+				<ul>
+					
+					<li><a href="#"> <i class="fas fa-angle-right"></i> Bản Tin  </a></li>
+					<li><a href="#"> <i class="fas fa-angle-right"></i> Messange</a></li>
+					<li><a href="#">  <i class="fas fa-angle-right"></i>Watch</a></li>
+					<li><a href="#">  <i class="fas fa-angle-right"></i>MarketPlace</a></li>
+					<li><a href="#"> <i class="fas fa-angle-right"></i> Lối Tắt</a></li>
+					<li><a href="#"> <i class="fas fa-angle-right"></i> Khám phá</a></li>
+					
+
+				</ul>
+			</div>
+			<div id="content">				
+				<div>
+					<h1>Tạo Bài Viết | Ảnh/Video | Video trực tiếp | Sự kiện trong đời</h1>
+					<hr style="width: 500px; margin-left: -1px;">
+					<div id="postbox">
+						<!-- <label for="nguyện vọng">Bạn Đang Nghĩ Gì ?</label><br> -->
+						<textarea id="postbox" placeholder="Bạn đang nghĩ gì ?"></textarea><br>
+						<hr >
+						<button style="background: #4267b2; color: white; position: absolute ; left: 470px;"> Post </button>
+					</div>
+					<br>
+					<br>
+				</div>
+				<!-- các bài post ở đây? -->
+				<div style=" margin-top: 20px; border: 1px solid; border-color: #eee; width: 500px;">
+					<div style="padding-bottom: 30px;">
+						<img class="float-left" src="img-bai3/prof.PNG" style="border-radius: 50%;" width="40px" height="40px" alt="">
+						<p class="float-left"> <a href="#" style="display: inline; font-size: large; color:#1b6192;">You</a> with <a href="#" style="display: inline;font-size: large; color:#1b6192;">Elsa</a> and <a href="#"  style="color:#1b6192;">5 others </a> <br> <span style="font-size: small;">9 hours</span> </p>
+					</div>
+					<div >
+						<p style="font-size: large; color: black;"><br> So beautiful !</p>
+						<img src="img-bai3/beach.jpg" style="width: 498px ;height:auto">
+
+					</div>
+					<div class="content-2">
+						<ul class="clearfix">
+							<li class="float-left"> <i class="far fa-thumbs-up" style="font-size: 30px;" ></i> Like</li>
+							<li class="float-left" style="margin-left: 70px;"> <i class="fas fa-comment" style="font-size: 30px"></i> </i> Comment</li>
+							<div class="float-left" style="margin-left: 55px; margin-top: 8px;"> <i class="fas fa-share" style="font-size: 30px;"></i> Share</li>
+						</ul>
+					</div>
+					<div class="comment clearfix">
+						<div class="float-left"><img class="float-left" src="img-bai3/prof.PNG" style="border-radius: 50%;" width="40px" height="40px" alt=""> </div>
+						<input id="comment" class="float-left"  type="text" name="họ và tên" placeholder="comment" style="width: 458px;"><br>
+						<!-- <button style="background: blue; color: white; position: relative; left: 421px;"> Post </button> -->
+					</div>
+				</div>
+
+				<div style=" margin-top: 20px; border: 1px solid;border-color: #eee; width: 500px;">
+					<div style="padding-bottom: 30px;">
+						<img class="float-left" src="img-bai3/prof.PNG" style="border-radius: 50%;" width="40px" height="40px" alt="">
+						<p class="float-left"> <a href="#" style="display: inline; font-size: large; color:#1b6192;">You</a> with <a href="#" style="display: inline;font-size: large; color:#1b6192;">Anna</a> and <a href="#"  style="color:#1b6192;">9 others </a> <br> <span style="font-size: small;">14 hours</span> </p>
+					</div>
+					<div >
+						<p style="font-size: large; color: black;"><br> Amazing !</p>
+						<img src="img-bai3/forest.jpg" style="width: 498px ;height:auto">
+
+					</div>
+					<div class="content-2">
+						<ul class="clearfix">
+							<li class="float-left"> <i class="far fa-thumbs-up" style="font-size: 30px;" ></i> Like</li>
+							<li class="float-left" style="margin-left: 70px;"> <i class="fas fa-comment" style="font-size: 30px"></i> </i> Comment</li>
+							<div class="float-left" style="margin-left: 55px; margin-top: 8px;"> <i class="fas fa-share" style="font-size: 30px;"></i> Share</li>
+						</ul>
+					</div>
+					<div class="comment clearfix">
+						<div class="float-left"><img class="float-left" src="img-bai3/prof.PNG" style="border-radius: 50%;" width="40px" height="40px" alt=""> </div>
+						<input id="comment" class="float-left"  type="text" name="họ và tên" placeholder="comment" style="width: 458px;"><br>
+						<!-- <button style="background: blue; color: white; position: relative; left: 421px;"> Post </button> -->
+					</div>
+				</div>
+				<div style=" margin-top: 20px; border: 1px solid;border-color: #eee; width: 500px;">
+					<div style="padding-bottom: 30px;">
+						<img class="float-left" src="img-bai3/prof.PNG" style="border-radius: 50%;" width="40px" height="40px" alt="">
+						<p class="float-left"> <a href="#" style="display: inline; font-size: large; color:#1b6192;">You</a> with <a href="#" style="display: inline;font-size: large; color:#1b6192;">Yennefer</a> and <a href="#"  style="color:#1b6192;">3 others </a> <br> <span style="font-size: small;">22 hours</span> </p>
+					</div>
+					<div >
+						<p style="font-size: large; color: black;"><br> Gorgeous !</p>
+						<img src="img-bai3/mountain.jpg" style="width: 498px ;height:auto">
+
+					</div>
+					<div class="content-2">
+						<ul class="clearfix">
+							<li class="float-left"> <i class="far fa-thumbs-up" style="font-size: 30px;" ></i> Like</li>
+							<li class="float-left" style="margin-left: 70px;"> <i class="fas fa-comment" style="font-size: 30px"></i> </i> Comment</li>
+							<div class="float-left" style="margin-left: 55px; margin-top: 8px;"> <i class="fas fa-share" style="font-size: 30px;"></i> Share</li>
+						</ul>
+					</div>
+					<div class="comment clearfix">
+						<div class="float-left"><img class="float-left" src="img-bai3/prof.PNG" style="border-radius: 50%;" width="40px" height="40px" alt=""> </div>
+						<input id="comment" class="float-left"  type="text" name="họ và tên" placeholder="comment" style="width: 458px;"><br>
+						<!-- <button style="background: blue; color: white; position: relative; left: 421px;"> Post </button> -->
+					</div>
+				</div>
+				
+				
+			<div id="window-chat" class="float-right" style="background-color: #eee; position: fixed;top: 50px; right: 0px;">
+				<ul style="position: absolute;">
+					<li style="padding: 20px;"> <img class="float-left" src="img-bai3/prof.PNG" style="border-radius: 50%;" width="30px" height="30px" alt="">   <div class="float-left" style="margin: 5px;">friend1</div> </li>
+					<li style="padding: 20px;"> <img class="float-left" src="img-bai3/prof.PNG" style="border-radius: 50%;" width="30px" height="30px" alt="">   <div class="float-left" style="margin: 5px;">friend2</div> </li>
+					<li style="padding: 20px;"> <img class="float-left" src="img-bai3/prof.PNG" style="border-radius: 50%;" width="30px" height="30px" alt="">   <div class="float-left" style="margin: 5px;">friend3</div> </li>
+					<li style="padding: 20px;"> <img class="float-left" src="img-bai3/prof.PNG" style="border-radius: 50%;" width="30px" height="30px" alt="">   <div class="float-left" style="margin: 5px;">friend4</div> </li>
+					<li style="padding: 20px;"> <img class="float-left" src="img-bai3/prof.PNG" style="border-radius: 50%;" width="30px" height="30px" alt="">   <div class="float-left" style="margin: 5px;">friend5</div> </li>
+					<li style="padding: 20px;"> <img class="float-left" src="img-bai3/prof.PNG" style="border-radius: 50%;" width="30px" height="30px" alt="">   <div class="float-left" style="margin: 5px;">friend6</div> </li>
+					<li style="padding: 20px;"> <img class="float-left" src="img-bai3/prof.PNG" style="border-radius: 50%;" width="30px" height="30px" alt="">   <div class="float-left" style="margin: 5px;">friend7</div> </li>
+					<li style="padding: 20px;"> <img class="float-left" src="img-bai3/prof.PNG" style="border-radius: 50%;" width="30px" height="30px" alt="">   <div class="float-left" style="margin: 5px;">friend8</div> </li>
+					<li style="padding: 20px;"> <img class="float-left" src="img-bai3/prof.PNG" style="border-radius: 50%;" width="30px" height="30px" alt="">   <div class="float-left" style="margin: 5px;">friend9</div> </li>
+					<li style="padding: 20px;"> <img class="float-left" src="img-bai3/prof.PNG" style="border-radius: 50%;" width="30px" height="30px" alt="">   <div class="float-left" style="margin: 5px;">friend10</div> </li>
+					<li style="padding: 20px;"> <img class="float-left" src="img-bai3/prof.PNG" style="border-radius: 50%;" width="30px" height="30px" alt="">   <div class="float-left" style="margin: 5px;">friend11</div> </li>
+					<li style="padding: 20px;"> <img class="float-left" src="img-bai3/prof.PNG" style="border-radius: 50%;" width="30px" height="30px" alt="">   <div class="float-left" style="margin: 5px;">friend12</div> </li>
+					
+					<!-- <li style="padding: 20px;"> <i class="fab fa-facebook-messenger"></i>   ...</li>
+					<li style="padding: 20px;">  <i class="fab fa-facebook-messenger"></i>  ...</li>
+					<li style="padding: 20px;"> <i class="fab fa-facebook-messenger"></i>   ...</li>
+					<li style="padding: 20px;">  <i class="fab fa-facebook-messenger"></i>  ...</li>
+					<li style="padding: 20px;"> <i class="fab fa-facebook-messenger"></i>   ...</li>
+					<li style="padding: 20px;">  <i class="fab fa-facebook-messenger"></i>  ...</li>
+					<li style="padding: 20px;"> <i class="fab fa-facebook-messenger"></i>   ...</li>
+					<li style="padding: 20px;">  <i class="fab fa-facebook-messenger"></i>  ...</li>
+					<li style="padding: 20px;"> <i class="fab fa-facebook-messenger"></i>   ...</li>
+					<li style="padding: 20px;">  <i class="fab fa-facebook-messenger"></i>  ...</li> -->
+
+				</ul>
+			</div>
+		</div>
+		<div id="Advertisement" f>
+			<ul class="float-left">
+				<li><h3>Quảng Cáo</h3></li>
+				<a href="#"><li style="margin-top: 30px;"> <img width="100%" src="img-bai3/witcher.jpg"></li></a>
+				<a href="#"><li style="margin-top: 30px;"> <img width="100%" src="img-bai3/dota2.jpg"></li></a>
+				<a href="#"><li style="margin-top: 30px;"> <img width="100%" src="img-bai3/xe.jpg"></li></a>
+				<a href="#"><li style="margin-top: 30px;"> <img width="100%" src="img-bai3/nha.jpeg"></li></a>
+				
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
