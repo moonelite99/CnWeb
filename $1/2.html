@@ -5,18 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ex 2</title>
     <style>
-        table {border: 1px solid;width: 1000px; border-collapse: collapse;}
-        td,th{border: 1px solid; width: 250px;}
+        table {width: 1000px; 
+        border-collapse: collapse;
+        margin-left: 40px;}
+        td,th{ width: 250px; height: 40px;}
+        table tr:nth-child(odd){
+            background-color: #eee;
+        }
+        tr:nth-child(even){
+            background-color: white;
+        }
+}
     </style>
 </head>
 <body>
-    <table>
+    <table border="1">
         <tr>
-            <td colspan="3" style="text-align: center;font-size: x-large;background-color:aliceblue;"> <b>Personal Details</b> </td>
-            <td ><img src="https://sie.hust.edu.vn/wp-content/uploads/2017/06/179519368553224046057841704204869752823113n-1-600x384.jpg" style="width: 250px; height: 120px; margin-bottom:-5px;" alt=""></td>
+            <td colspan="3" style="font-size: x-large;background:aliceblue;"> <b>Personal Details</b> 
+                <br>
+                <ul>
+                    <li>Name: Abc</li>
+                    <li>ID: xyz123</li>
+                    <li>Birthday: dd/MM/yyyy</li>
+                </ul>
+            </td>
+            <td ><img src="https://sie.hust.edu.vn/wp-content/uploads/2017/06/179519368553224046057841704204869752823113n-1-600x384.jpg" style="width: 250px; height: auto; margin-bottom:-5px;" alt=""></td>
         </tr>
         <tr>
-            <td> <b>Education process</b> </td>
+            <td><b>Education process</b> </td>
             <td colspan="3"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, ipsam!</td>
         </tr>
         <tr>
