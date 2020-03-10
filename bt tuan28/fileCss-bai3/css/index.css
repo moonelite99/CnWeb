@@ -1,0 +1,102 @@
+.wp-inner{ width: 960px;
+	height: 30px;
+	margin: 0px auto;
+	position: relative; 
+}
+#wp-content{
+	
+	margin-left: 2%;
+}
+/*style header*/
+
+#header {
+	background: #003366;
+	padding: 10px 0px 10px 0px;
+	color: #ffffff;
+}
+
+#form-search{
+	padding: 0px 0px  0px 30px;
+	position: relative;
+}
+#key-search{
+	outline: none;
+	border:1px solid #e1e1e1;
+	border-radius: 5px;
+	height: 30px;
+	width: 370px;
+	font-style: italic;
+	color: #e1e1e1;
+	padding-left: 15px;
+
+}
+#submit{
+	border:none;
+	position: absolute;
+	left: 92%;
+	top:2%;
+	background: #fff;
+	color: #a3a3a3;
+	font-size: 11px;
+	cursor: pointer;
+	padding: 8px;
+}
+/*end style header*/
+/*style sidebar*/
+#sidebar-left,#sidebar-right{
+	
+	background: #fbfbfb;
+	width: 20%;
+	color: #5b5252;
+	min-height: 700px;
+	padding:20px 0px 0px 15px;
+}
+/*style sidebar left*/
+#sidebar-left ul li {
+	padding: 10px 10px 10px 10px;
+}
+#sidebar-left ul li a{ 
+	
+	position: relative; 
+	padding-left: 30px; 
+}
+#sidebar-left ul li a i{
+	position: absolute;
+	top: -3px;
+	left: 5px;
+	font-size: 22px;
+}
+
+/*#sidebar-left ul li a:before{ 
+	font-family: "Font Awesome 5 Free";
+	content: "\f105";
+	position: absolute;
+	top: -3px;
+	left: 5px;
+	font-size: 22px;
+	color: red; 
+}*/
+/*style content*/
+
+#content{
+
+	background: #ffffff;
+	width: 40%;
+	color: #5b5252;
+	min-height: 700px;
+	padding:20px 0px 0px 15px;
+
+}
+.content-2 ul li{
+     padding: 6px 70px 10px 0px;
+}
+/*style window-chat*/
+#window-chat{
+	background: #ffffff;
+	width: 15%;
+	min-height: 700px;
+	padding:20px 0px 0px 15px;
+}
+
+
+

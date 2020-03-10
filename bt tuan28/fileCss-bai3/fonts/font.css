@@ -1,0 +1,16 @@
+@font-face{
+	font-family: "Roboto Medium";
+	src:url('fonts/font/Roboto/Roboto-Medium.ttf');
+}
+@font-face{
+	font-family: "Roboto Regular";
+	src:url('fonts/font/Roboto/Roboto-Regular.ttf');
+}
+@font-face{
+	font-family: "Roboto Bold";
+	src:url('fonts/font/Roboto/Roboto-Bold.ttf');
+}
+@font-face{
+	font-family: "FontAwesome";
+	src:url('fonts/font-awesome.min.css');
+}
