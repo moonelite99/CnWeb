@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.content{
+    width: 50%;
+    margin: 10px auto;
+}
+input{
+    width: 300px;
+    height: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.submit{
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: #2980b9;
+}
+h3{
+    color: red;
+    display: inline;
+}
+</style>
+<body style="background-color: #eee;">
+    <form class="content" action="index.php" method="POST" style="margin: 10px auto; display: block; text-align: left;padding-right: 200px;" >
+        <br>
+        Name <h3>*</h3> <input type="text" name="name" required="true">
+        <br>
+        School <h3>*</h3> <input type="text" name="school" required="true">
+        <br>
+        Class <h3>*</h3> <input type="text" name="class" required="true">
+        <br>
+        Email <h3>*</h3> <input type="email" name="email" required="true">
+        <br>
+        Phone <h3>*</h3> <input type="tel" name="phone" pattern="[0-9]{10,11}" required="true">
+        <br>
+        Gender <h3>*</h3>
+        <input list="gender" name="gender" placeholder="Choose" required="true">
+        <datalist id="gender">
+            <option value="Male"></option>
+            <option value="Female"></option>
+        </datalist>
+        <br>
+        <input type="submit" class="submit" value="Submit">
+    </form>
+
+</body>
+</html>
