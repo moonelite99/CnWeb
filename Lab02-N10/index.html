@@ -6,50 +6,83 @@
     <title>Document</title>
 </head>
 <style>
-.content{
-    width: 50%;
-    margin: 10px auto;
+h1{
+    margin-top: 50px;
+    text-align: center;
+    margin-left: -15px;
+    color: #3498db;
+}
+form{
+    margin: 10px 32%; 
+    display: block; 
 }
 input{
     width: 300px;
-    height: 30px;
+    height: 28px;
     margin-left: 10px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
 }
 .submit{
     background-color: #3498db;
     color: white;
     cursor: pointer;
+    width: 150px;
+    border:1px;
+    border-radius: 5px ;
+    float: right;
 }
 .submit:hover{
     background-color: #2980b9;
 }
-h3{
-    color: red;
-    display: inline;
+.radio{
+    width: 20px;
+}
+td:nth-child(odd){
+    text-align: right;
+    width:100px;
 }
 </style>
-<body style="background-color: #eee;">
-    <form class="content" action="index.php" method="POST" style="margin: 10px auto; display: block; text-align: left;padding-right: 200px;" >
-        <br>
-        Name <h3>*</h3> <input type="text" name="name" required="true">
-        <br>
-        School <h3>*</h3> <input type="text" name="school" required="true">
-        <br>
-        Class <h3>*</h3> <input type="text" name="class" required="true">
-        <br>
-        Email <h3>*</h3> <input type="email" name="email" required="true">
-        <br>
-        Phone <h3>*</h3> <input type="tel" name="phone" pattern="[0-9]{10,11}" required="true">
-        <br>
-        Gender <h3>*</h3>
-        <input list="gender" name="gender" placeholder="Choose" required="true">
-        <datalist id="gender">
-            <option value="Male"></option>
-            <option value="Female"></option>
-        </datalist>
-        <br>
-        <input type="submit" class="submit" value="Submit">
+<body style="background-color: whitesmoke">
+    <h1>Personal Information</h1>
+    <form  action="index.php" method="POST">
+        <table>
+            <tr>
+                <td>Name<font color="red">*</font></td>
+                <td><input type="text" name="name" required="true"></td>
+            </tr>
+            <tr>
+                <td>School<font color="red">*</font></td>
+                <td><input type="text" name="school" required="true"></td>
+            </tr>
+            <tr>
+                <td>Class<font color="red">*</font></td>
+                <td><input type="text" name="class" required="true"></td>
+            </tr>
+            <tr>
+                <td>Email<font color="red">*</font></td>
+                <td><input type="email" name="email" required="true"></td>
+            </tr>
+            <tr>
+                <td>Phone<font color="red">*</font></td>
+                <td><input type="tel" name="phone" pattern="[0-9]{10,11}" required="true"></td>
+            </tr>
+            <tr>
+                <td>Birthday<font color="red">*</font></td>
+                <td><input type="date" name="bday"></td>
+            </tr>
+            <tr>
+                <td>Gender<font color="red">*</font></td>
+                <td><input type="radio" class="radio" name="gender" value="Male" required>Male <input type="radio" class="radio" name="gender" value="Female" style="margin-left: 60px;">Female<input type="radio" class="radio" name="gender" value="Other" style="margin-left: 50px;">Other</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" class="submit" value="Submit" ></td>
+            </tr>
+        </table>
+        
+        
     </form>
 
 </body>
