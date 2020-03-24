@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+h1{
+    margin-top: 50px;
+    text-align: center;
+    margin-left: -15px;
+    color: #3498db;
+}
+form{
+    margin: 10px 32%; 
+    display: block; 
+}
+input{
+    width: 300px;
+    height: 28px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.submit{
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    width: 150px;
+    border:1px;
+    border-radius: 5px ;
+    float: right;
+}
+.submit:hover{
+    background-color: #2980b9;
+}
+.radio{
+    width: 20px;
+}
+td:nth-child(odd){
+    text-align: right;
+    width:100px;
+}
+</style>
+<body style="background-color: whitesmoke">
+    <h1>Personal Information</h1>
+    <form  action="DateTimeFunction.php" method="POST">
+        <table>
+            <tr>
+                <td>Name1<font color="red">*</font></td>
+                <td><input type="text" name="name1" required="true"></td>
+            </tr>
+             <tr>
+                <td>Birthday1<font color="red">*</font></td>
+                <td><input type="date" name="bday1"></td>
+            </tr>
+            <tr>
+                <td>Name2<font color="red">*</font></td>
+                <td><input type="text" name="name2" required="true"></td>
+            </tr>
+            
+            <tr>
+                <td>Birthday2<font color="red">*</font></td>
+                <td><input type="date" name="bday2"></td>
+            </tr>
+            
+            <tr>
+                <td></td>
+                <td><input type="submit" class="submit" value="Submit" ></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="reset" class="submit" value="reset" ></td>
+            </tr>
+        </table>
+        
+        
+    </form>
+
+</body>
+</html>
+
