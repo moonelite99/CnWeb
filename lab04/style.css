@@ -1,0 +1,31 @@
+input[type = submit]{
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    width: fit-content;
+    height: 30px;
+    border:1px;
+    border-radius: 5px ;
+    margin: 10px;
+}
+input[type = submit]:hover{
+    background-color: #2980b9;
+}
+input[type = number]{
+    height: 25px;
+}
+body{
+    background-color: #f1f2f6;
+}
+
+a{
+    background-color: #3498db;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}

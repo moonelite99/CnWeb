@@ -1,0 +1,51 @@
+
+form{
+    margin: 10px auto;
+    border-radius: 10px;
+    width: 50%;
+    background-color: #eeeeee;
+    justify-content: space-around;
+    height: 350px;
+    
+}
+input[type = submit]{
+    text-align: center;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    width: fit-content;
+    height: 30px;
+    border:1px;
+    border-radius: 5px ;
+    margin-left: 250px;
+}
+input[type = submit]:hover{
+    background-color: #2980b9;
+}
+input[type = reset]{
+    background-color: #2ecc71;
+    color: white;
+    cursor: pointer;
+    width: fit-content;
+    height: 30px;
+    border:1px;
+    border-radius: 5px ;
+    margin: 10px;
+}
+input[type = reset]:hover{
+    background-color: #27ae60;
+}
+h2{
+    color: #3498db;
+    text-align: center;
+}
+select{
+    text-align: center;
+    height: 25px;
+    width: 60px;
+    margin-right: 8px;
+}
+input[type = text]{
+    height: 20px;
+    width: 200px;
+}
